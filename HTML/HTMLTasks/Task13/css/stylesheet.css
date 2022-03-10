@@ -1,0 +1,96 @@
+body {
+	background-image: url(../images/what-the-hex.png);
+	margin: 0;
+}
+.container {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	/*border: solid 2px aqua;*/
+}
+nav {
+	margin-top: 50px;
+	/*border: solid 2px black;*/
+}
+nav ul {
+	/*border: solid 2px red;*/
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+nav ul li {
+	width: 163px;
+	height: 170px;
+	/*border: solid 2px blue;*/
+	float: left;
+	/*display: inline-block;*/
+	text-align: center;
+}
+nav ul li a {
+	/*border: solid 2px green;*/
+	text-decoration: none;
+	display: block;
+}
+nav ul li:hover {
+	height: 190px;
+}
+.menu-1 {
+	background-color: #CE6603;
+}
+.menu-1:hover {
+	border-bottom: solid 4px #a34c00;
+}
+.menu-2 {
+	background-color: #E9931A;
+}
+.menu-2:hover {
+	border-bottom: solid 4px #ce8116;
+}
+.menu-3 {
+	background-color: #1691bd;
+}
+.menu-3:hover {
+	border-bottom: solid 4px #117aa0;
+}
+.menu-4 {
+	background-color: #166ba2;
+}
+.menu-4:hover {
+	border-bottom: solid 4px #11527c;
+}
+.menu-5 {
+	background-color: #1b3647;
+}
+.menu-5:hover {
+	border-bottom: solid 4px #0e1d26;
+}
+.menu-6 {
+	background-color: #152836;
+}
+.menu-6:hover {
+	border-bottom: solid 4px #070f14;
+}
+.menu-icon {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 56px;
+	color: white;
+	font-size: 30px;
+	line-height: 60px;
+	/*border: solid 2px grey;*/
+	border-radius: 30px;
+	background-color: rgba(217, 221, 224,0.2);
+}
+.menu-name {
+	font-family: verdana;
+	margin-top: 40px;
+	line-height: 27px;
+	color: white;
+	/*border: solid 2px lime;*/
+}
+.clear {
+	clear: both;
+	height: 1px;
+}

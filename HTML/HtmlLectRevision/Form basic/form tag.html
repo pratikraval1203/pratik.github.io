@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Tag</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<h1><u>Registration Form</u></h1>
+		<div class="lbl-form">
+			<fieldset>
+				<legend>Using Lable Tag</legend>
+				<form action="" method="GET" enctype="multipart/form-data">
+					<label for="fname" class="lbl">First Name:</label>	
+					<input type="text" name="FirstName1" id="fname" class="input">
+					<br>
+					<label for="lname" class="lbl">Last Name:</label>
+					<input type="text" name="LastName1" id="lname" class="input">
+					<br>
+					<label for="pswrd" class="lbl">Password : </label>
+					<input type="password" name="Password" id="pswrd" class="input" maxlength="10">
+					<br>
+					<span style="color: grey;">(max 10 character length)</span>
+					<br>
+					<label for="mo-num" class="lbl">Moblie No:</label>
+					<input type="text" name="Moblie-number1" id="mo-num" class="input" value="+91" maxlength="13">
+					<br>
+					<label for="state" class="lbl">Select Your State:</label>
+					<select name="state" id="state" class="input">
+						<option>Gujarat</option>
+						<option>Goa</option>
+						<option>Maharastra</option>
+						<option>Rajasthan</option>
+						<option>Madhya Pradesh</option>
+					</select>
+					<br>
+					<input type="button" name="button1" class="btn" value="Submit">
+				</form>
+			</fieldset>
+		</div> <!-- lbl-form ends -->
+
+		<div class="ph-form">
+			<fieldset>
+				<legend>Using PlaceHolder Property</legend>
+				<form action="" method="GET" enctype="multipart/form-data">
+					<input type="text" name="FirstName2" placeholder="Enter Your FirstName" class="input">
+					<br>
+					<input type="text" name="LastName2" placeholder="Enter Your LastName" class="input">
+					<br>
+					<input type="password" name="password2" placeholder="Enter Your Password" class="input" maxlength="10">
+					<br>
+					<span style="color: grey;">(max 10 character length)</span>
+					<br>
+					<select class="input" style="margin: -10px; border:solid 2px grey;">
+						<option>+91</option>
+						<option>+1</option>
+						<option>+2</option>
+					</select>
+					<input type="text" name="Moblie-number2" placeholder="Enter Your Moblie No." class="input" maxlength="10">
+					<br>
+					<select name="state" class="input" style="color: grey; width: 245px;">
+						<option disabled selected>Select Your State</option>
+						<option value="1">Gujarat</option>
+						<option value="2">Goa</option>
+						<option value="3">Maharastra</option>
+						<option value="4">Rajasthan</option>
+						<option value="5">Madhya Pradesh</option>
+					</select>
+					<br>
+					<input type="button" name="button2" class="btn" value="Submit">
+				</form>
+			</fieldset>
+		</div> <!-- ph-form ends -->
+		<div class="clear"></div>
+	</div> <!-- container ends -->
+</body>
+</html>

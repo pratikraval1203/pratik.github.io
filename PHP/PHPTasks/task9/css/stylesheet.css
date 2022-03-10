@@ -1,0 +1,121 @@
+body {
+	background-color: #FEC009;
+}
+.container {
+	width: 980px;
+	height: auto;
+	margin: 50px auto;
+	/*border: solid 10px black;*/
+	background-color: white;
+	/*background-color: red;*/
+	/*background-image: url(../images/what-the-hex.png);*/
+}
+.left-col , .right-col {
+	height: 600px;
+	/*border: solid 1px blue;*/
+	float: left;
+}
+.left-col {
+	width: 408px;
+	padding-left: 80px;
+}
+.custome {
+	margin-left: -25px; 
+}
+.right-col {
+	width: 478px;
+	padding-left: 10px;
+}
+.right-col-1 {
+	float: left;
+	/*border: solid 1px red;*/
+	width: 150px;
+	line-height: 25px;
+}
+.right-col-2 {
+	float: left;
+	/*border: solid 1px blue;*/
+	margin-bottom: 14px;
+}
+.textbox {
+	width: 250px;
+	height: 20px;
+}
+.textbox-l {
+	width: 330px;
+	height: 20px;
+}
+.fp {
+	/*border: solid 1px green;*/
+	display: inline-block;
+	text-align: right;
+	margin-left: 60px;
+}
+.fp a {
+	text-decoration: none;
+	color: black;
+}
+fieldset {
+	margin-top: 20px;
+	width: 305px;
+	border: solid 1px white;
+	border-top: solid 1px black;
+	padding-top: 20px;
+}
+.twitter-btn , .fb-btn , .gp-btn {
+	color: white;
+	width: 80px;
+	height: 20px;
+	float: left;
+	margin-right: 21px;
+}
+.twitter-btn .icon , .fb-btn .icon , .gp-btn .icon {
+	/*text-align: center;*/
+	/*border: solid 1px black;*/
+	float: left;
+	line-height: 20px;
+}
+.twitter-btn .text , .fb-btn .text , .gp-btn .text {
+	text-align: center ;
+	/*border: dashed 1px blue;*/
+}
+.login-btn {
+	width: 150px;
+	height: 24px;
+	background-color: #F6BF14; 
+	border-radius: 5px;
+	color: white;
+}
+.twitter-btn {
+	background-color: #35A8CD;
+}
+.fb-btn {
+	background-color: #647692;
+}
+.gp-btn {
+	background-color: #AC4939;
+}
+.reg-btn , .clr-btn {
+	width: 200px;
+	height: 25px;
+	color: white;
+	border-radius: 5px;
+}
+.reg-btn {
+	background-color: green;
+}
+.clr-btn {
+	background-color: tomato;
+}
+.footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.footer a {
+	text-decoration: none;
+}
+.clear {
+	width: auto;
+	height: 1px;
+	clear: both;
+}

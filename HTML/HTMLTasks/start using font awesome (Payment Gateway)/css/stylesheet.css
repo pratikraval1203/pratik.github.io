@@ -1,0 +1,53 @@
+.container {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.header {
+	width: auto;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+fieldset {
+	/*border-radius: 10px;*/
+}
+legend{
+	font-size: 30px;
+}
+.item-container {
+	text-align: center;
+	width: 448px; /* 490px; */
+	height: 130px;
+	color: lightblue;
+	border: solid 1px black;
+	border-radius: 10px;
+	/*background-color: blue;*/
+	float: left;
+	padding:10px;
+}
+.logo {
+	/*border: dotted 1px red;*/
+}
+.item-name {
+	color: black;
+	font-size: 20px;
+	/*border: dashed 1px black;*/
+}
+.item-container:hover {
+	color: gold;
+}
+.pay-btn {
+	width: 500px;
+	height: 50px;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 240px;
+	text-align: center;
+	float: left;
+	/*border: dotted 2px red;*/
+	border-radius: 20px;
+	background-color: gold;
+	color: white;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<a href="index.php" onclick="return validate()">click</a>
+	<div id="stl"></div>
+
+	<script type="text/javascript">
+		function validate() {
+			var stl = "12R12";
+			var l= stl.length;
+			var statusmsc = "";
+			var statuslsn = "";
+			var statuswsn = "";
+			var statushsn = "";
+
+			if (l != 7) {
+				status = "storage code must be of 7 digit";
+				document.getElementById('stl').innerHTML = status;
+				return false;
+			} else {
+
+				var msc = stl[0]+stl[1];
+				var lsn = stl[2]+stl[3];
+				var wsn = stl[4];
+				var hsn = stl[5]+stl[6];
+
+				for(i = 1 ; i < 100 ; i++) {
+					if (msc == i) {
+						statusmsc = 1;
+						// document.write(i);
+						break;
+				    } 
+				    else {
+				    	statusmsc = "Main Storage Code not set";
+				    }   
+				}
+
+				for(i = 1 ; i < 100 ; i++) {
+					if (lsn == i) {
+						statuslsn = 1;
+						// document.write(statuslsn);
+						break;
+				    } 
+				    else {
+				    	statuslsn = "Length Scale Number not set";
+				    }   
+				}
+
+				for(i = 65 ; i < 97 ; i++) {
+					var charCode = String.fromCharCode(i);
+					if (wsn == charCode) {
+						statuswsn = 1;
+						// document.write(String.fromCharCode(i));
+						break;
+				    } 
+				    else {
+				    	statuswsn = "Width Scale Number not set";
+				    }   
+				}
+
+				for(i = 1 ; i < 100 ; i++) {
+					if (hsn == i) {
+						statushsn = 1;
+						// document.write(i);
+						break;
+				    } 
+				    else {
+				    	statushsn = "Height Scale Number not set";
+				    }   
+				}
+
+				if ( statusmsc == 1) {
+					// document.write(statuslsn);
+					if (statuslsn == 1) {
+
+						if (statuswsn == 1) {
+							if (statushsn == 1) {
+								// document.write("hello");
+								document.getElementById("stl").innerHTML= "done";
+							}
+							else {
+								// document.write("hello");
+								document.getElementById("stl").innerHTML= statushsn;
+								return false;
+							}
+						}
+						else {
+							// document.write("hello");
+							document.getElementById("stl").innerHTML= statuswsn;
+							return false;
+						}
+					}
+					else {
+						// document.write("hello");
+						document.getElementById("stl").innerHTML= statuslsn;
+						return false;
+					}
+				}
+				else {
+					// document.write("hello");
+					document.getElementById("stl").innerHTML= statusmsc;
+					return false;
+				}
+			}
+		}	
+	</script>
+</body>
+</html>

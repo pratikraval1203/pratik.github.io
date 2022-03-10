@@ -1,0 +1,9 @@
+ol {
+	font-family:arial;
+	font-size: 1.3em;
+}
+
+span,dt {
+	font-style:italic;
+	font-weight:bold;
+}

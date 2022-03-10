@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psudo Classes Basic</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet-psudo-class-basic.css">
+</head>
+<body>
+	<div class="container">
+		<table border="1" cellpadding="5" cellspacing="5" width="1366px">
+			<thead>
+				<tr>
+					<th>Property Name</th>
+					<th>Discription</th>
+					<th>CSS Code</th>
+					<th>Output</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						1)first-child
+						<hr>
+						2)last-child
+					</td>
+					<td>
+						1)for every <mark>first</mark> child element of a tag.
+						<hr>
+						2)for every <mark>last</mark> child element of a tag.
+					</td>
+					<td>
+						<code>
+							.one div:first-child { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: red; <br>
+							} 
+							<hr>
+							.one div:last-child { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="one">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- one ends -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1)nth-child(odd)
+						<hr>
+						2)nth-child(even)
+					</td>
+					<td>
+						1)for every <mark>odd</mark> child element of tag.
+						<hr>
+						2)for every <mark>even</mark> child element of tag.
+					</td>
+					<td>
+						<code>
+							.two div:nth-child(odd) { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: red; <br>
+							} 
+							<hr>
+							.two div:nth-child(even) { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="two">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- two ends -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						|| nth-child([Nth]n) ||
+						<hr>
+						1)nth-child(3n)
+						<hr>
+						2)nth-child(4n)
+					</td>
+					<td>
+						|| for every <mark>Nth</mark> (i.e. 3,4,5) number child element. ||
+						<hr>
+						1)for every <mark>3rd</mark> child element of tag.
+						<hr>
+						2)for every <mark>4th</mark> child element of tag.
+					</td>
+					<td>
+						<code>
+							.three div:nth-child(3n) { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: red; <br>
+							} 
+							<hr>
+							.three div:nth-child(4n) { <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="three">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- three ends -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						|| nth-child(n) ||
+						<hr>
+						1)nth-child(2)
+						<hr>
+						2)nth-child(5)
+						<hr>
+						3)nth-child(9)
+					</td>
+					<td>
+						|| for <mark>Nth</mark> number child element of tag. ||
+						<hr>
+						1)for <mark>2nd</mark> number child element of tag.
+						<hr>
+						2)for <mark>5th</mark> number child element of tag.
+						<hr>
+						3)for <mark>9th</mark> number child element of tag.
+					</td>
+					<td>
+						<code>
+							.four div:nth-child(2) { <br>
+								background-color: red; <br>
+							}
+							<hr>
+							.four div:nth-child(5) { <br>
+								background-color: green; <br>
+							}
+							<hr>
+							.four div:nth-child(9) { <br>
+								background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="four">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- four ends --> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						|| nth-child(&plusmn;n&plusmn;N) ||
+						<hr>
+						1)nth-child(n+5)
+						<hr>
+						2)nth-child(-n+3)
+					</td>
+					<td>
+						|| <mark>start from N</mark> or <mark>only N</mark> elements ||
+						<hr>
+						1)<mark>start from 5th</mark> child element of tag.
+						<hr>
+						2)<mark>only first 3</mark> child element of tag.
+					</td>
+					<td>
+						<code>
+							.five div:nth-child(n+5) { <br>
+								background-color: red; <br>
+							}
+							<hr>
+							.five div:nth-child(-n+3) { <br>
+								background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="five">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- five ends -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						|| nth-child(&plusmn;Xn+Y) ||
+						<hr>
+						1)nth-child(3n+5)
+						<hr>
+						2)nth-child(-3n+6)
+					</td>
+					<td>
+						|| <mark>every Xth</mark> element,<mark>start from Y </mark>||
+						<hr>
+						1)<mark>every 3rd</mark> child, <mark>start from 5.</mark> <br>
+							[<mark>if +Xn </mark> then <mark>ascending order</mark> elements]
+						<hr>
+						2)<mark>every 3rd</mark> child,<mark>start from 6.</mark> <br>
+							[<mark>if -Xn</mark> then <mark>descending order</mark> elements]
+					</td>
+					<td>
+						<code>
+							.six div:nth-child(3n+5) { <br>
+								background-color: red; <br>
+							}
+							<hr>
+							.six div:nth-child(-3n+6) { <br>
+								background-color: blue; <br>
+							}
+						</code>
+					</td>
+					<td>
+						<div class="six">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+							<div>5</div>
+							<div>6</div>
+							<div>7</div>
+							<div>8</div>
+							<div>9</div>
+							<div>10</div>
+						</div> <!-- six ends -->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div> <!-- container ends -->
+</body>
+</html>

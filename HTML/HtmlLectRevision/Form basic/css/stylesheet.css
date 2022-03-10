@@ -1,0 +1,44 @@
+body {
+	background-image: url(../images/light-veneer.png);
+	margin: 0;
+}
+.container {
+	text-align: center;
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	/*border: solid 2px black;*/
+}
+.lbl-form , .ph-form {
+	margin: 35px;
+	width: 418px;
+	/*border: solid 1px red;*/
+	float: left;
+}
+fieldset {
+	border-radius: 40px;
+}
+legend {
+	font-size: 25px;
+}
+.lbl {
+	font-size: 20px;
+}
+.input {
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 15px 10px;
+}
+.btn {
+	font-size: 20px;
+	width: 100px;
+	padding: 10px 10px;
+	margin: 20px;
+	border-radius: 15px;
+	background-color: lightblue;
+}
+.clear {
+	height: 1px;
+	width: auto;
+	clear: both;
+}

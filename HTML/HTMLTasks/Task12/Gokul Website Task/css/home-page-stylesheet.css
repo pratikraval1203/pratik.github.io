@@ -1,0 +1,157 @@
+.container {
+	width: 980px; /* 980px */
+	height: auto;
+	margin: 0 auto;
+	/*padding-left: 60px;*/
+	/*border: solid 2px black;*/
+	overflow: hidden;
+}
+.logo {
+	width: 270px; /* 268px */
+	height: 156px;
+	/*border: solid 1px black;*/
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.tag-line {
+	color: #02a591;
+	font-size: 20px;
+}
+.menu-container {
+	width: 710px; /* 708px */
+	/*border:solid 1px blue;*/
+	float: left;
+}
+.col-p-1, .col-p-2, .col-p-3, .col-p-4 {
+	height: 204px;
+	width: 204px;
+	float: left;
+	border-radius: 102px;
+}
+.col-p-1 {
+	background-color: rgba(245,61,81,0.4);
+	margin-left: -43px;
+	margin-top: -70px;
+	z-index: 0;
+	position: relative;
+}
+.col-p-2 {
+	background-color: rgba(655,235,67,0.4);
+	margin-top: -32px;
+	margin-left: -35px;
+}
+.col-p-3 {
+	background-color: rgba(38,207,140,0.5);
+	margin-left: -35px;
+	margin-top: -95px;
+}
+.col-p-4 {
+	background-color: rgba(36,182,242,0.4);
+	margin-left: -35px;
+	margin-top: -40px;
+	/*z-index: 0;
+	position: relative;*/
+}
+.col-c-1, .col-c-2, .col-c-3, .col-c-4 {
+	height: 160px;
+	width: 160px;
+	border-radius: 80px;
+	margin: 22px;
+}
+.col-c-1 {
+	background-color: #E43D47;
+}
+.col-c-2 {
+	background-color: #FFCD3F;
+	z-index: 1;
+	position: relative;
+}
+.col-c-3 {
+	background-color: #26CF8C;
+}
+.col-c-4 {
+	background-color: #24B6F2;
+}
+.content {
+	text-align: center;
+	line-height: 160px;
+	font-size: 16px;
+}
+.content a {
+	color: white;
+	text-decoration: none;
+}
+.content a:hover {
+	color: black;
+}
+.gfh-info {
+	height: 360px;
+	clear: both;
+	text-align: justify;
+	word-spacing: 3px;
+	font-family: arial;
+	margin-top: 10px;
+	/*border:solid 1px red;*/
+	line-height: 30px;
+}
+.para-1, .para-4, .para-5 {
+	margin-left: 15px;
+}
+.para-2 {
+	margin-left: 55px;
+}
+.para-3 {
+	margin-left: 150px;
+}
+.para-6 {
+	margin-left: 40px;
+}
+.red-line {
+	color: #e31d2a;
+}
+.background-img-1 {
+	width: 360px;
+	height: 360px;
+	border-radius: 180px;
+	background-image: url(../images/house-circle.png);
+	margin-top: -360px;
+	margin-left: -100px;
+	float: left;
+}
+.background-img-2 {
+	width: 210px;
+	height: 210px;
+	background-image: url(../images/circle-in-one-red-b.png);
+	float: right;
+	margin-right: -45px;
+	margin-top: -260px;
+}
+.clear {
+	width: auto;
+	height: 1px;
+	clear: both;
+}
+.footer {
+	width: 980px;
+	position: absolute;
+	/*border:solid 1px blue;*/
+	padding: 5px;
+}
+.copyright-1 {
+	font-size: 14px;
+	color: grey;
+}
+.copyright-2 {
+	float: right;
+	font-size: 15px;
+	font-family:cursive;
+}
+.footer a {
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}

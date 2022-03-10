@@ -1,0 +1,245 @@
+body {
+	background-color: #333333;
+	font-family: verdana;
+	color: grey;
+}
+.container {
+	width: 88%;
+	height: auto;
+	margin: 0 auto;
+	/*outline: solid 1px black;*/
+	background-color: #FFFFFF;
+	padding-bottom: 3%;
+	border-radius: 40px;
+}
+.mainHeader {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 150%;
+	line-height: 100px;
+	/*outline: solid 1px blue;*/
+}
+.link {
+	margin-left: 35%;
+}
+.mainContent {
+	width: 100%;
+	height: auto;
+	outline: solid 1px green;
+}
+.left-side {
+	width: 30%;
+	height: auto;
+	float: left;
+	/*outline: solid 1px green;*/
+}
+.left-side .first {
+	/*width: 90%;
+	height: 100px;*/
+/*	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;*/
+	z-index: -1;
+	position: relative;
+}
+.left-side .second {
+	/*width: 80%;
+	height: 100px;*/
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	z-index: 0;
+	position: relative;
+	margin-top: -100px;
+}
+.left-side .third {
+	/*width: 60%;
+	height: 100px;*/
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	z-index: 1;
+	position: relative;
+	margin-top: -100px;
+}
+.menu-name {
+	width: 40%;
+	height: auto;
+	float: left;
+	/*outline: solid 1px red;*/
+	text-align: center;
+}
+.menu-item {
+	line-height: 70px;
+}
+.right-side {
+	width: 30%;
+	height: auto;
+	float: left;
+	/*outline: solid 1px green;*/
+}
+
+.right-side .first {
+	width: 90%;
+	height: 100px;
+	/*border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;*/
+	z-index: -1;
+	position: relative;
+	float: right;
+}
+.right-side .second {
+	width: 80%;
+	height: 100px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	z-index: 0;
+	position: relative;
+	margin-top: -100px;
+	float: right;
+}
+.right-side .third {
+	width: 60%;
+	height: 100px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	z-index: 1;
+	position: relative;
+	margin-top: -100px;
+	float:right;
+}
+.blue .first {
+	width: 105%;
+	height: 100px;
+	background-color: rgba(50, 180, 212, 0.3); 
+}
+.left-side .blue .first:after {
+	border:50px solid transparent;
+    border-left: 50px solid rgba(50, 180, 212, 0.3);
+}
+.right-side .blue .first:after {
+	border:50px solid transparent;
+    border-right: 50px solid rgba(50, 180, 212, 0.3);
+}
+.blue .second {
+	width: 95%;
+	height: 100px;
+	background-color: rgba(50, 180, 212, 0.4);
+}
+.blue .third {
+	width: 75%;
+	height: 100px;
+	background-color: rgb(50, 180, 212); 
+}
+.green .first {
+	width: 95%;
+	height: 100px;
+	background-color: rgba(127, 185, 23, 0.3);
+}
+.left-side .green .first:after {
+	border:50px solid transparent;
+    border-left: 50px solid rgba(127, 185, 23, 0.3);
+}
+.right-side .green .first:after {
+	border:50px solid transparent;
+    border-right: 50px solid rgba(127, 185, 23, 0.3);
+}
+.green .second {
+	width: 85%;
+	height: 100px;
+	background-color:rgba(127, 185, 23, 0.4);
+}
+.green .third {
+	width: 65%;
+	height: 100px;
+	background-color: rgb(127, 185, 23);
+}
+.grey .first {
+	width: 85%;
+	height: 100px;
+	background-color: rgba(170, 170, 170, 0.3);
+}
+.left-side .grey .first:after {
+	border:50px solid transparent;
+    border-left: 50px solid rgba(170, 170, 170, 0.3);
+}
+.right-side .grey .first:after {
+	border:50px solid transparent;
+    border-right: 50px solid rgba(170, 170, 170, 0.3);
+}
+.grey .second {
+	width: 75%;
+	height: 100px;
+	background-color: rgba(170, 170, 170, 0.4);
+}
+.grey .third {
+	width: 55%;
+	height: 100px;
+	background-color: rgb(170, 170, 170);
+}
+.red .first {
+	width: 75%;
+	height: 100px;
+	background-color: rgba(211, 17, 17, 0.3);
+}
+.left-side .red .first:after {
+	border:50px solid transparent;
+    border-left: 50px solid rgba(211, 17, 17, 0.3);
+}
+.right-side .red .first:after {
+	border:50px solid transparent;
+    border-right: 50px solid rgba(211, 17, 17, 0.3);
+}
+.red .second {
+	width: 65%;
+	height: 100px;
+	background-color: rgba(211, 17, 17, 0.4);
+}
+.red .third {
+	width: 45%;
+	height: 100px;
+	background-color: rgb(211, 17, 17);
+}
+.yellow .first {
+	width: 65%;
+	height: 100px;
+	background-color: rgba(255, 216, 8, 0.3);
+}
+.left-side .yellow .first:after {
+	border:50px solid transparent;
+    border-left: 50px solid rgba(255, 216, 8, 0.3);
+}
+.right-side .yellow .first:after {
+	border:50px solid transparent;
+    border-right: 50px solid rgba(255, 216, 8, 0.3);
+}
+.yellow .second {
+	width: 55%;
+	height: 100px;
+	background-color: rgba(255, 216, 8, 0.4);
+}
+.yellow .third {
+	width: 35%;
+	height: 100px;
+	background-color: rgb(255, 216, 8);
+}
+.left-side .first:after{
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    left:100%;
+    top:0;
+}
+.right-side .first:after{
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    /*left:0;*/
+    top:0;
+    right: 100%;
+}
+.clear {
+	width: auto;
+	height: auto;
+	clear: both;
+}

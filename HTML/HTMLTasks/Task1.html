@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task1</title>
+	<!-- <style type="text/css">
+		.sr{
+			color:red;
+		}
+		.tag{
+			color:red;
+		}
+		.tagname{
+			color:red;
+		}
+		.desc{
+			color:red;
+		}
+	</style> -->
+</head>
+<body>
+	<table border="1" cellpadding="10" >
+		<thead>
+			<tr>
+				<th>Sr</th>
+				<th>Tag</th>
+				<th>Tag Name</th>
+				<th>Description</th>
+			</tr>
+			<!--
+			 <tr>
+				<td class="sr"></td>
+				<td class="tag">&lt;&gt;...&lt;/&gt;</td>
+				<td class="tagname"></td>
+				<td class="desc">
+					<ul>
+						<li></li>
+						<li></li>						
+					</ul>
+				</td>
+			</tr>
+			 -->
+		</thead>
+		<tbody>
+			<tr>
+				<td class="sr">1</td>
+				<td class="tag">&lt;html&gt;...&lt;/html&gt;</td>
+				<td class="tagname">HTML Root Tag</td>
+				<td class="desc">
+					<ul>
+						<li>&lt;html&gt; tag represents the root of an HTML document.</li>
+						<li>The &lt;html&gt; tag is the container for all other HTMl tag.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">2</td>
+				<td class="tag">&lt;head&gt;...&lt;/head&gt;</td>
+				<td class="tagname">Head Tag</td>
+				<td class="desc">
+					<ul>
+						<li>&lt;head&gt; tag is a container for all the head elements.</li>
+						<li>The &lt;head&gt; tag must include title for the document.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">3</td>
+				<td class="tag">&lt;title&gt;...&lt;/title&gt;</td>
+				<td class="tagname">Title Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;title&gt; tag defines the title of current document.</li>
+						<li>The text inbetween will be shownt at the browser toolbar.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">4</td>
+				<td class="tag">&lt;body&gt;...&lt;/body&gt;</td>
+				<td class="tagname">Body Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;body&gt; tag defines the document body.</li>
+						<li>The &lt;body&gt; tag comtains all the content of an web page such as text,list,table,images,videos,etc.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">5</td>
+				<td class="tag">&lt;p&gt;...&lt;/p&gt;</td>
+				<td class="tagname">Paragraph Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;p&gt; Defines a paragraph.</li>
+						<li>Browser automatically add some space before and after each &lt;p&gt; element.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">6</td>
+				<td class="tag">&lt;b&gt;...&lt;/b&gt;</td>
+				<td class="tagname">Bold Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;b&gt; element defines BOLD text,without any extra importance.</li>
+						<li><b>Example of &lt;b&gt; tag.</b></li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">7</td>
+				<td class="tag">&lt;i&gt;...&lt;/i&gt;</td>
+				<td class="tagname">Italic Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;i&gt; element defines ITALIC text,without any extra importance.</li>
+						<li><i>Example of &lt;i&gt; tag.</i></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">8</td>
+				<td class="tag">&lt;strong&gt;...&lt;/strong&gt;</td>
+				<td class="tagname">Strong Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;strong&gt; tag is a pharse tag.It defines important text.</li>
+						<li><strong>Example of &lt;strong&gt; tag.</strong></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">9</td>
+				<td class="tag">&lt;em&gt;...&lt;/em&gt;</td>
+				<td class="tagname">Emphasized Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;em&gt; tag is a pharse tag.It renders as emphasized text.</li>
+						
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">10</td>
+				<td class="tag">&lt;u&gt;...&lt;/u&gt;</td>
+				<td class="tagname">Underline Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;u&gt; element defines underlined text that should be stylistically different from normal text.</li>
+						<li><u>Example of &lt;u&gt; tag.</u></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">11</td>
+				<td class="tag">&lt;mark&gt;...&lt;/mark&gt;</td>
+				<td class="tagname">Mark Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;mark&gt; element defines marked text.Use the &lt;mark&gt; tag if you want to <u>highlight</u> parts of your text.</li>
+						<li><mark>Example of &lt;Mark&gt; tag.</mark></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">12</td>
+				<td class="tag">&lt;del&gt;...&lt;/del&gt;</td>
+				<td class="tagname">Delete Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;del&gt; element defines text that has been deleted from a document.</li>
+						<li><del>Example of &lt;del&gt; tag.</del></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">13</td>
+				<td class="tag">&lt;ins&gt;...&lt;/ins&gt;</td>
+				<td class="tagname">Insert Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;ins&gt; element defines text that has been inserted from a document.</li>
+						<li><ins>Example of &lt;ins&gt; tag(same as underlined text).</ins></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">14</td>
+				<td class="tag">&lt;h1&gt;...&lt;/h1&gt;</td>
+				<td class="tagname">Heading1 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h1&gt; tag defines Most important Heading in an HTML document.</li>
+						<li><h1>Heading1(h1) tag example.</h1></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">15</td>
+				<td class="tag">&lt;h2&gt;...&lt;/h2&gt;</td>
+				<td class="tagname">Heading2 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h2&gt; tag defines Second Most important Heading in an HTML document.</li>
+						<li><h2>Heading2(h2) tag example.</h2></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">16</td>
+				<td class="tag">&lt;h3&gt;...&lt;/h3&gt;</td>
+				<td class="tagname">Heading3 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h3&gt; tag defines Third Most important Heading in an HTML document.</li>
+						<li><h3>Heading3(h3) tag example.</h3></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">17</td>
+				<td class="tag">&lt;h4&gt;...&lt;/h4&gt;</td>
+				<td class="tagname">Heading4 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h4&gt; tag defines Fourth Most important Heading in an HTML document.</li>
+						<li><h4>Heading4(h4) tag example.</h4></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">18</td>
+				<td class="tag">&lt;h5&gt;...&lt;/h5&gt;</td>
+				<td class="tagname">Heading5 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h5&gt; tag defines Second Least important Heading in an HTML document.</li>
+						<li><h5>Heading5(h5) tag example</h5></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">19</td>
+				<td class="tag">&lt;h6&gt;...&lt;/h6&gt;</td>
+				<td class="tagname">Heading6 Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;h6&gt; tag defines Least important Heading in an HTML document.</li>
+						<li><h6>Heading6(h6) tag example.</h6></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">20</td>
+				<td class="tag">&lt;img&gt;...&lt;/img&gt;</td>
+				<td class="tagname">Image Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;img&gt; tag defines an image in an HTML page.</li>
+						<li>In HTML the &lt;img&gt; tag has no end tag.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">21</td>
+				<td class="tag">&lt;ul&gt;...&lt;/ul&gt;</td>
+				<td class="tagname">Unoredered List</td>
+				<td class="desc">
+					<ul>
+						<li>An unordered list typically is a bulleted list of items.</li>
+						<li>An unordered list starts with the &lt;ul&gt; tag.Each list item starts with the &lt;li&gt; tag.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">22</td>
+				<td class="tag">&lt;ol&gt;...&lt;ol&gt;</td>
+				<td class="tagname">Ordered List</td>
+				<td class="desc">
+					<ul>
+						<li>An ordered list typically is a numbered list of items.</li>
+						<li>An ordered list starts with &lt;ol&gt; tag.Each list item starts with &lt;li&gt; tag.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="sr">23</td>
+				<td class="tag">&lt;li&gt;...&lt;/li&gt;</td>
+				<td class="tagname">List Item</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML &lt;li&gt; tag contains the list items in &lt;ul&gt; and &lt;ol&gt; lists.</li>
+						<li>It contains the list items which will be desplayed in list.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">24</td>
+				<td class="tag">&lt;dl&gt;...&lt;/dl&gt;</td>
+				<td class="tagname">Description List</td>
+				<td class="desc">
+					<ul>
+						<li>A description list or definition list displays elements in definitio n <strong>like in dictionary</strong>.</li>
+						<li>The &lt;dl&gt;,&lt;dt&gt; and &lt;dd&gt; tags are used to define description list.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">25</td>
+				<td class="tag">&lt;dt&gt;...&lt;/dt&gt;</td>
+				<td class="tagname">Data Term</td>
+				<td class="desc">
+					<ul>
+						<li>It defines <strong>Data Term</strong> in description list.</li>
+						<li>It used to defines the term of which the description is given in Description list.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">26</td>
+				<td class="tag">&lt;dd&gt;...&lt;/dd&gt;</td>
+				<td class="tagname">Data Description</td>
+				<td class="desc">
+					<ul> 
+						<li>It defines <strong>Data Description</strong> in description list.</li>
+						<li>It used to defines the description of the term in Description list.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">27</td>
+				<td class="tag">&lt;hr&gt;</td>
+				<td class="tagname">Horizontal Ruler</td>
+				<td class="desc">
+					<ul>
+						<li>It is used when we need to give a themetic break in an HTML page.</li>
+						<li>It gives output like:<br><hr></li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">28</td>
+				<td class="tag">&lt;br&gt;</td>
+				<td class="tagname">Break Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML <b>&lt;br&gt;</b> element produces a line <b>break</b> in text.</li>
+						<li>The &lt;br&gt;tag inserts a single line <b>break</b>.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">29</td>
+				<td class="tag">&lt;center&gt;...&lt;/center&gt;</td>
+				<td class="tagname">Center Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The <b>&lt;center&gt;</b> tag is used to center-align text.</li>
+						<li>The <b>&lt;center&gt;</b> element was used to identify text that should be centered when rendered by a browser.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">30</td>
+				<td class="tag">&lt;sub&gt;...&lt;/sub&gt;</td>
+				<td class="tagname">Subscript Tag</td>
+				<td class="desc">
+					<ul>
+						<li>Subscript text can be usrd for Chemical formulas.</li>
+						<li>For example...<p>H<sub>2</sub>O</p></li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">31</td>
+				<td class="tag">&lt;sup&gt;...&lt;/sup&gt;</td>
+				<td class="tagname">Superscript Tag</td>
+				<td class="desc">
+					<ul>
+						<li>Superscript text can be used for Mathematical formulas.</li>
+						<li>For example...<p>a<sup>2</sup>2+b<sup>2</sup>=10</p></li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">32</td>
+				<td class="tag">&lt;table&gt;...&lt;/table&gt;</td>
+				<td class="tagname">Table Tag</td>
+				<td class="desc">
+					<ul>
+						<li>An <b>HTML table</b> consists of the <b>&lt;table&gt;</b> element and one or more &lt;tr&gt;,&lt;th&gt;,and&lt;td&gt; elements.</li>
+						<li>The<b>&lt;table&gt; tag</b> also supports the Global Attribuyes in <b>HTML</b>.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">33</td>
+				<td class="tag">&lt;thead&gt;...&lt;/thead&gt;</td>
+				<td class="tagname">Table Heading</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;thead&gt; tag is used to group header content in an HTML table.</li>
+						<li>The HTML &lt;thead&gt; tag is used for adding a header to a tale.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">34</td>
+				<td class="tag">&lt;tbody&gt;...&lt;/tbody&gt;</td>
+				<td class="tagname">Table Body</td>
+				<td class="desc">
+					<ul>
+						<li>The <b>&lt;tbody&gt;</b> tag is used to group body content in an HTML table.</li>
+						<li>The HTML &lt;tbody&gt; tag is used in adding a body to table.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">35</td>
+				<td class="tag">&lt;tfoot&gt;...&lt;/tfoot&gt;</td>
+				<td class="tagname">Table Footer</td>
+				<td class="desc">
+					<ul>
+						<li>The HTML <b>tfoot element</b> defines a set of rows summarizing the the columns of te table.</li>
+						<li>The &lt;tfoot&gt; tag is used to group footer content in an HTML table.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">36</td>
+				<td class="tag">&lt;tr&gt;...&lt;/tr&gt;</td>
+				<td class="tagname">Table Row</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;tr&gt; tag is used to represent <b>Table Row</b>.</li>
+						<li>It is only usesable inside a table tag.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">37</td>
+				<td class="tag">&lt;th&gt;...&lt;/th&gt;</td>
+				<td class="tagname">Table Header</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;th&gt; tag is used to represent the <b>coloumn wise headers</b> of table.</li>				
+						<li>It gives bold and center aligned text output.</li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">38</td>
+				<td class="tag">&lt;td&gt;...&lt;/td&gt;</td>
+				<td class="tagname">Table Data</td>
+				<td class="desc">
+					<ul>
+						<li>The &lt;td&gt; tag is used to represent <b>Table Data</b>.</li>
+						<li>It is used to represent a single cell or single data item in table.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">39</td>
+				<td class="tag">&lt;caption&gt;...&lt;/caption&gt;</td>
+				<td class="tagname">Caption Tag</td>
+				<td class="desc">
+					<ul>
+						<li>The <b>HTML &lt;caption&gt; tag</b> is used for creating table <b>caption</b>.</li>
+						<li>It is used in conjunction with the &lt;table&gt; <b>tag</b> and represent the title of the table.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">40</td>
+				<td class="tag">&lt;abbr&gt;...&lt;/abbr&gt;</td>
+				<td class="tagname">Abbriviation Tag</td>
+				<td class="desc">
+					<ul>
+						<li>Defines an abbreviation of acronym.</li>
+						<li>The abbr attribute specifies a shorter version of the content in a header cell.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">41</td>
+				<td class="tag">&lt;address&gt;...&lt;/address&gt;</td>
+				<td class="tagname">Address Tag</td>
+				<td class="desc">
+					<ul>
+						<li>Defines contact information for the author/owner of a document.</li>
+						<li>The address element is usually added to the header or footer of a webpage.</li>						
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">42</td>
+				<td class="tag">&lt;code&gt;...&lt;/code&gt;</td>
+				<td class="tagname">Code Tag</td>
+				<td class="desc">
+					<ul>
+						<li>THe HTML &lt;code&gt; tag is used to represent specific type of codes.(like programming codes)</li>
+						<li>It gives output like this:<code>c = a + b;</code></li>
+					</ul>
+				</td>
+			</tr>
+			 <tr>
+				<td class="sr">43</td>
+				<td class="tag">&lt;lh&gt;...&lt;/lh&gt;</td>
+				<td class="tagname">List Header</td>
+				<td class="desc">
+					<ul>
+						<li>List Header tag is used to represent the header of any type of list.</li>
+						<li>It specifies the header of a perticular list.</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

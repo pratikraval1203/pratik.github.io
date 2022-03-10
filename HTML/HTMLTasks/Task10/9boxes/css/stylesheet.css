@@ -1,0 +1,54 @@
+.box1 {
+	height: 300px;
+	width: 460px;
+	background-color: #F06522;
+	float: left;
+}
+.box2 {
+	height: 300px;
+	width: 210px;
+	background-color: #6DCFF7;
+	float: left;
+}
+.box3 {
+	height: 300px;
+	width: 190px;
+	background-color: #38B348;
+	float: left;
+}
+.box4 {
+	height: 300px;
+	width: 145px;
+	background-color: #FBF466;
+	float: left;
+}
+.box5 {
+	height: 300px;
+	width: 90px;
+	background-color: #EC538C;
+	float: left;
+}
+.box6 {
+	height: 300px;
+	width: 85px;
+	background-color: #ED1D23;
+	float: left;
+}
+.box7 {
+	height: 300px;
+	width: 85px;
+	background-color: #775332;
+	float: left;
+}
+.box8 {
+	height: 300px;
+	width: 67px;
+	background-color: #662E93;
+	float: left;
+}
+.box9 {
+	height: 300px;
+	width: 67px;
+	background-color: #F7C391;
+	float: left;
+}

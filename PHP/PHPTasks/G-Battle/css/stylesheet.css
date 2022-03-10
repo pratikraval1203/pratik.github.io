@@ -1,0 +1,64 @@
+/*body {
+	background-color: blue;
+}*/
+.container {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	border: solid 2px black;
+}
+.col-left , .col-right {
+	width: 416px; /* 440px */ 
+	height: 600px;
+	border: dashed 2px white;
+	float: left;
+}
+.col-center {
+	width: 136px; /* 100px */
+	height: 600px;
+	border: dotted 2px white;
+	float: left;
+}
+.clear {
+	width: auto;
+	height: 1px;
+	clear: both;
+}
+.user-1-img , .user-2-img {
+	width: 250px;
+	height: 250px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.user-1-details , .user-2-details {
+	width: 300px;
+	height: 200px;
+/*	background-color: green;*/
+	margin: 10px auto;
+	text-align: center;
+}
+.user-1-post-data , .user-2-post-data {
+	width: 250px;
+	height: 50px;
+	/*background-color: blue;*/
+	border: dashed 1px blue;
+	margin: 0 auto;
+}
+.vs-img {
+	margin-top: 220px;
+}
+.user-name {
+	font-size: 30px;
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+* {
+	font-family: verdana;
+}
+body {
+	background-image: url(../images/light-veneer.png);
+	margin: 0;
+}
+.container {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	border: solid 1px black;
+}
+thead tr {
+	background-color: #f1f1f1;
+}
+tbody tr:nth-child(odd) {
+	background-color: white;
+}
+tbody tr:nth-child(even) {
+	background-color: #f1f1f1;
+}
+tr div div {
+	width: 40px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	border: solid 1px black;
+}
+.one div:first-child {
+	background-color: red;
+}
+.one div:last-child {
+	background-color: blue;
+}
+.two div:nth-child(odd) {
+	background-color: red;
+}
+.two div:nth-child(even) {
+	background-color: blue;
+}
+.three div:nth-child(3n) {
+	background-color: red;
+}
+.three div:nth-child(4n) {
+	background-color: blue;
+}
+.four div:nth-child(2) {
+	background-color: red;
+}
+.four div:nth-child(5) {
+	background-color: green;
+}
+.four div:nth-child(9) {
+	background-color: blue;
+}
+.five div:nth-child(n+5) {
+	background-color: red;
+}
+.five div:nth-child(-n+3) {
+	background-color: blue;
+}
+.six div:nth-child(3n+5) {
+	background-color: red;
+}
+.six div:nth-child(-3n+6) {
+	background-color: blue;
+}
+.clear {
+	width: auto;
+	height: 100px;
+	clear: both;
+}

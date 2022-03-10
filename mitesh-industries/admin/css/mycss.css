@@ -1,0 +1,138 @@
+/** {
+    color: #333;
+}*/
+
+.font-algeria {
+    /*font-family: monospace !important;*/
+}
+
+table .btn {
+    padding: 3% !important;
+    /*color: red !important;*/
+}
+
+.report-table {
+    /*outline: 10px solid black;*/
+}
+
+.report-table td {
+    padding: 2px 5px 2px 5px !important;
+}
+
+
+.bg-login-image-my {
+    background-image: url('../img/food1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-password-image-my {
+    background-image: url('../img/food2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nameloc, #numloc, #stlloc {
+    color: red;
+}
+
+.star {
+    color: red !important;
+    margin-left: 1px;
+   /* font-weight: bold;
+    font-size: 1.2rem;*/
+}
+
+a.mylink{
+  text-decoration: none;
+  color: inherit;
+}
+input[type=text] , input[type=email] , input[type=password] , input[type=number] ,input[type=file] ,input[type=date], .mydrpdwn {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin: 0;
+    /*box-shadow: 0px 0px 5px 1px white inset;*/
+   /* box-shadow: 2px 2px 5px #f1f1f1, 
+        -3px -3px 6px #f1f1f1;
+    border: none;*/
+    /*background-color: rgb(239,243,247);*/
+}
+
+::-webkit-file-upload-button {
+   display: none;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    font-style: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    margin-bottom: -5px;
+
+}
+
+.card {
+    background-color: rgb(239,243,247);
+}
+
+/*.navbar-nav , .navbar-item , a.nav-link{
+    background-color: rgb(239,243,247);
+    color: #4e73df;
+}*/
+.nav-link i {
+  /*  box-shadow: 0px 0px 5px 1px #000 inset;
+    border-radius: 8px;
+    line-height: 0;
+    width: 20%;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;*/
+}
+
+
+/* links in tables */
+/*a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}*/
+
+table tr th {
+    background: #fff;
+}
+table tr:nth-child(even) {
+    background: #fff;
+}
+table tr:nth-child(odd) {
+    background: #f1f1f1;
+}

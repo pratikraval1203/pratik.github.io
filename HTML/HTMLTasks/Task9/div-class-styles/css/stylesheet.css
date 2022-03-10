@@ -1,0 +1,26 @@
+.brick1 {
+	background-color: red;
+	width: 500px;
+	height: 200px;
+	border-style: groove;
+	border-color: blue;
+	border-width: 15px;
+}
+
+.brick2 {
+	background-color: blue;
+	width: 400px;
+	height: 150px;
+	border-style: dashed;
+	border-color: green;
+	border-width: 10px;
+}
+
+.brick3 {
+	background-color: green;
+	width: 300px;
+	height: 100px;
+	border-style: dotted;
+	border-color: red;
+	border-width: 5px;
+}

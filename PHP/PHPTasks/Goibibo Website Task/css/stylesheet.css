@@ -1,0 +1,75 @@
+.container {
+	width: 1024px; /* 980px */
+	height: auto;
+	margin: 0 auto;
+	background-color: rgba(255,225,225,0.7);
+	/*border: solid 2px black;*/
+}
+.hotel-container {
+	width: 980px;
+	height: 300px;
+	background-color: white;
+	padding: 10px;
+	border: solid 2px black;
+	margin: 10px;
+}
+.hotel-image {
+	width: 300px;
+	height: 270px;
+	padding: 5px;
+	/*border: dotted 2px green;*/
+	float: left;
+}
+.hotel-details {
+	width: 670px;
+	height: 300px;
+	/*border: dotted 2px red;*/
+	float: left;
+}
+.clear {
+	width: auto;
+	height: 1px;
+	clear: both;
+}
+.hotel-name {
+	font-family: consolas;
+	font-size: 30px;
+	color: blue;
+}
+.area {
+	font-family: arial;
+	font-size: 20px;
+	color: grey;
+}
+.org-prc {
+	font-size: 20px;
+	color: grey;
+	text-decoration:line-through;
+	float: right;
+	margin-top: 130px;
+	margin-right: 90px;
+}
+.disc {
+	font-size: 20px;
+	color: green;
+	float: right;
+	margin-top: 130px;
+	margin-right: -140px;
+}
+.disc-prc {
+	font-size: 25px;
+	color: black;
+	float: right;
+	margin-top: 160px;
+	margin-right: -140px;
+}
+.book-btn {
+	border-radius: 10px;
+	background-color: orange;
+	color: white;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: -35px;
+/*	margin-right: -100px;*/
+}

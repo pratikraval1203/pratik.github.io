@@ -1,0 +1,21 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Identity by Unity Infoway
+/// unityinfoway.com
+/// ..
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		position: relative;
+		border-bottom: none;
+
+		> .label {
+			display: none;
+		}
+	}
